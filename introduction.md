@@ -1,6 +1,6 @@
 # Non-relational databases
 
-![Data-bases](./img/DB.jpg)
+![Data-bases](/img/DB.jpg)
 
 ## SQL and NoSQL databases
 
