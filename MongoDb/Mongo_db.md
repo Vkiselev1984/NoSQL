@@ -92,7 +92,7 @@ people
 mydb> db.people.find().pretty()
 ```
 
-![people](/img/people.png)
+![people](./img/people.png)
 
 Great, we've learned how to run Mongo in Docker and import data into the container and the database itself.
 
@@ -100,7 +100,7 @@ Now let's learn simple commands for interacting with the database to view or edi
 
 Let's assume we are working with a forum in which we have users.json and posts.json data. Let's load them into a new database forum.
 
-![forum](/img/forum.png)
+![forum](./img/forum.png)
 
 ```Terminal
 sudo docker cp users.json my_mongo:/data/users.json
@@ -124,7 +124,7 @@ db.users.find().pretty()
 db.posts.find().pretty()
 ```
 
-![forum](/img/forum_data_test.png)
+![forum](./img/forum_data_test.png)
 
 Let's try to find data about a specific user in our database:
 
@@ -132,7 +132,7 @@ Let's try to find data about a specific user in our database:
 forum> db.users.find({"_id":"robersoncash@terrago.com"})
 ```
 
-![find by email](/img/mongo_find_by_email.png)
+![find by email](./img/mongo_find_by_email.png)
 
 We can also sort the output by users who are, for example: currently active:
 
@@ -146,7 +146,7 @@ or count their number using the appropriate function:
 db.users.countDocuments({ isActive: true })
 ```
 
-![count users](/img/Mongo_count.png)
+![count users](./img/Mongo_count.png)
 
 users with a certain eye color:
 
@@ -169,7 +169,7 @@ db.users.updateOne(
 )
 ```
 
-![update user balance](/img/Mongo_balance_update.png)
+![update user balance](./img/Mongo_balance_update.png)
 
 We can remove inactive users:
 
@@ -252,7 +252,7 @@ db.posts.find(
 - content: { $regex: /ven/i }: This filter finds documents where the content field contains the substring "ven". The i flag makes the search case-insensitive, allowing it to find both "ven" and "Ven", "VEN", etc.
 - { \_id: 1, author: 1, content: 1 }: This projection operator returns only the \_id, author, and content fields of the found documents.
 
-![regex](/img/Mongo_regx.png)
+![regex](./img/Mongo_regx.png)
 
 ## Updating data in Mongo
 
@@ -567,7 +567,7 @@ Once you have created an index, you can view all the indexes in the collection t
 db.posts.getIndexes()
 ```
 
-![Regular index](/img/Mongo_index.png)
+![Regular index](./img/Mongo_index.png)
 
 3. Checking Query Performance
 
@@ -577,7 +577,7 @@ To check whether MongoDB is using an index when executing a query, you can use t
 db.posts.find({ author: "john.doe@example.com" }).explain("executionStats")
 ```
 
-![Execution stats](/img/Mongo_execution_stats.png)
+![Execution stats](./img/Mongo_execution_stats.png)
 
 4. Analyzing the results
 
@@ -596,7 +596,7 @@ db.posts.dropIndex("author_1")
 
 Please note that if we want to create a unique index, but the data will be duplicated, we will get an error:
 
-![Unique index error](/img/Unique_index_error.png)
+![Unique index error](./img/Unique_index_error.png)
 
 Let's add a composite index:
 
@@ -605,7 +605,7 @@ db.posts.createIndex({ author: 1, createdAt: -1 })
 db.posts.getIndexes()
 ```
 
-![Composite index](/img/Mongo_get_index.png)
+![Composite index](./img/Mongo_get_index.png)
 
 Let's check the functionality:
 
@@ -622,7 +622,7 @@ db.posts.createIndex({ content: "text" })
 db.posts.getIndexes()
 ```
 
-![Text index](/img/Mongo_text_index.png)
+![Text index](./img/Mongo_text_index.png)
 
 Let's check the functionality:
 
@@ -630,7 +630,7 @@ Let's check the functionality:
 db.posts.find({ $text: { $search: "Lorem" } })
 ```
 
-![Text search](/img/Mongo_text_index_search.png)
+![Text search](./img/Mongo_text_index_search.png)
 
 Let's delete the created indexes:
 
@@ -692,7 +692,7 @@ db.users.insertMany([
 ]);
 ```
 
-![Unique index error](/img/Mongo_unique_index_error.png)
+![Unique index error](./img/Mongo_unique_index_error.png)
 
 Aggregation in Mongo
 
@@ -831,4 +831,4 @@ Let's check that the data has been successfully saved to the database:
 forum> db.users.find().pretty();
 ```
 
-![Add user function result](/img/Mongo_function_test.png)
+![Add user function result](./img/Mongo_function_test.png)
