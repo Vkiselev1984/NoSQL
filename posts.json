@@ -1,0 +1,43 @@
+[
+    {
+      "_id": "67462cfbd9ed3ce95a06b6b4",
+      "author": "robersoncash@terrago.com",
+      "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "createdAt": "2024-04-14T01:19:11 -03:00",
+      "updatedAt": "2022-03-15T03:40:31 -03:00",
+      "tags": [
+        "lorem",
+        "ipsum",
+        "dolor"
+      ],
+      "likes": 237,
+      "comments": [
+        {
+          "_id": "67462cfb4533e3c9c4a9b801",
+          "author": "hinescash@terrago.com",
+          "content": "Great post! Thanks for sharing.",
+          "createdAt": "2021-05-25T02:46:56 -03:00"
+        },
+        {
+          "_id": "67462cfb4f894c87cd94e2db",
+          "author": "lovecash@terrago.com",
+          "content": "I found this very helpful.",
+          "createdAt": "2023-08-08T08:43:02 -03:00"
+        }
+      ]
+    },
+    {
+      "_id": "67462cfb2e8ddfc8f433cd4b",
+      "author": "hinescash@terrago.com",
+      "content": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      "createdAt": "2024-08-27T03:23:16 -03:00",
+      "updatedAt": "2024-06-30T09:22:02 -03:00",
+      "tags": [
+        "ut",
+        "enim",
+        "veniam"
+      ],
+      "likes": 600,
+      "comments": []
+    }
+  ]

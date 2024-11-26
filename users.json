@@ -1,0 +1,110 @@
+[
+  {
+    "_id": "robersoncash@terrago.com",
+    "isActive": true,
+    "balance": "1616",
+    "picture": "http://placehold.it/32x32",
+    "age": 22,
+    "eyeColor": "green",
+    "first_name": "Hines",
+    "sure_name": "Roberson",
+    "phone": "+1 (823) 437-3795",
+    "address": "989 Osborn Street, Conway, Montana, 5608",
+    "about": "Amet nostrud aliqua adipisicing commodo consequat. Commodo ex cupidatat labore non culpa sunt. Id officia sit esse proident aute commodo. Mollit sunt sint consequat nisi laborum magna velit excepteur tempor et exercitation nisi laboris eiusmod. Officia nisi culpa qui velit.",
+    "registered": "2017-02-22T03:14:44 -03:00",
+    "tags": [
+      "tempor",
+      "do",
+      "ullamco",
+      "ex",
+      "amet",
+      "sunt",
+      "do"
+    ],
+    "friends": [
+      {
+        "id": "hinescash@terrago.com"
+      },
+      {
+        "id": "lovecash@terrago.com"
+      },
+      {
+        "id": "oneillcash@terrago.com"
+      }
+    ],
+    "greeting": "Hello, Hines! You have 158 unread messages.",
+    "favoriteFruit": "apple"
+  },
+  {
+    "_id": "hinescash@terrago.com",
+    "isActive": true,
+    "balance": "2871",
+    "picture": "http://placehold.it/32x32",
+    "age": 33,
+    "eyeColor": "green",
+    "first_name": "Love",
+    "sure_name": "Hines",
+    "phone": "+1 (808) 421-3385",
+    "address": "951 Matthews Court, Coaldale, Ohio, 1510",
+    "about": "Fugiat deserunt consequat elit mollit aliqua et. Tempor ullamco amet sunt amet aliquip. Consectetur occaecat occaecat qui amet ullamco occaecat fugiat incididunt ut. Consectetur anim laborum aliqua aliqua. Cillum enim do ad non. Tempor qui elit nostrud ad labore magna excepteur enim ut.",
+    "registered": "2022-03-28T12:10:03 -03:00",
+    "tags": [
+      "amet",
+      "magna",
+      "ad",
+      "exercitation",
+      "do",
+      "et",
+      "voluptate"
+    ],
+    "friends": [
+      {
+        "id": "robersoncash@terrago.com"
+      },
+      {
+        "id": "lovecash@terrago.com"
+      },
+      {
+        "id": "oneillcash@terrago.com"
+      }
+    ],
+    "greeting": "Hello, Love! You have 181 unread messages.",
+    "favoriteFruit": "strawberry"
+  },
+  {
+    "_id": "lovecash@terrago.com",
+    "isActive": false,
+    "balance": "2438",
+    "picture": "http://placehold.it/32x32",
+    "age": 38,
+    "eyeColor": "blue",
+    "first_name": "Oneill",
+    "sure_name": "Love",
+    "phone": "+1 (840) 506-3273",
+    "address": "582 Waldorf Court, Trona, Palau, 5542",
+    "about": "Quis in ullamco ex adipisicing irure laborum adipisicing. Sint eiusmod adipisicing dolore velit eu fugiat est enim minim eiusmod aliqua cillum consectetur irure. Irure tempor exercitation consequat cupidatat amet nulla excepteur reprehenderit eu consequat aliquip commodo.",
+    "registered": "2014-08-02T11:39:35 -04:00",
+    "tags": [
+      "eiusmod",
+      "esse",
+      "velit",
+      "ipsum",
+      "magna",
+      "incididunt",
+      "non"
+    ],
+    "friends": [
+      {
+        "id": "hinescash@terrago.com"
+      },
+      {
+        "id": "oneillcash@terrago.com"
+      },
+      {
+        "id": "ferncash@terrago.com"
+      }
+    ],
+    "greeting": "Hello, Oneill! You have 147 unread messages.",
+    "favoriteFruit": "apple"
+  }
+]
