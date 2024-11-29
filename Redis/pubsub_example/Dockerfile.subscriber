@@ -1,0 +1,10 @@
+# Dockerfile.subscriber
+FROM python:3.12-slim
+
+WORKDIR /app
+
+COPY subscriber.py .
+
+RUN pip install redis
+
+CMD ["python", "subscriber.py"]

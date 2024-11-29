@@ -1,4 +1,4 @@
-# Introduction to MongoDB
+# Work with MongoDB
 
 Let's install and run MongoDB with docker via WSL:
 
